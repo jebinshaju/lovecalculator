@@ -4,7 +4,7 @@ This is a simple web application for calculating the love percentage between two
 
 ## Live Demo
 
-Check out the live demo [here](https://jebinshaju.github.io/lovecalculator)!
+Check out the live demo [website](https://jebinshaju.github.io/lovecalculator)!
 
 ## Features
 
