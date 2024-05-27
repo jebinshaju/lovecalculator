@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️ Love Percentage Calculator ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1> ❤️ Love Percentage Calculator ❤️</h1>
+    <div class="container">
+        
+        <form id="loveForm">
+            <div class="form-group">
+                <label for="yourName">Your Name: 😊</label>
+                <input type="text" id="yourName" required>
+            </div>
+            <div class="form-group">
+                <label for="crushName">Crush's Name: 🥰</label>
+                <input type="text" id="crushName" required>
+            </div>
+            <div class="form-group">
+                <label for="yearsKnown">Years of Knowing Each Other: 🌟</label>
+                <input type="number" id="yearsKnown" required>
+            </div>
+            <div class="form-group">
+                <label for="story">How You Met (and a little story): 📖</label>
+                <textarea id="story" rows="5" required></textarea>
+            </div>
+            <button type="button" onclick="calculateLove()">Calculate 💖</button>
+        </form>
+        <div id="loading" class="loading">Calculating... ⏳</div>
+    </div>
+
+    <footer>
+        <p>We use deep learning to calculate the love percentage. Reference TensorFlow <a href="https://www.tensorflow.org/" target="_blank">DOCS</a>. 🌐</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
