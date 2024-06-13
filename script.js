@@ -49,7 +49,7 @@ function displayResult() {
             <br>Just tell them how you feel! 😊
             <br><br><br>
 
-            P.S. All your info is saved in our database and will be sent to your friends and ${loveDetails.crushName}. 😂
+            P.S. All your info is saved in our database and will be sent to your friends and ${loveDetails.crushName}. 😂,  also no AI is involved in this....
         `;
         document.getElementById('loveMessage').innerHTML = loveMessage;
     }
