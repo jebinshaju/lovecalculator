@@ -44,10 +44,7 @@ function displayResult() {
     const loveDetails = JSON.parse(sessionStorage.getItem('loveDetails'));
     if (loveDetails) {
         const loveMessage = `
-            Dear ${loveDetails.yourName}, your lovely crush ${loveDetails.crushName} loves you back for sure! 💖
-            Your story and ${loveDetails.yearsKnown} years of knowing each other makes it perfect to ask ${loveDetails.crushName} out for a date. 
-            <br>Just tell them how you feel! 😊
-            <br><br><br>
+            Patticheee.....
 
             P.S. All your info is saved in our database and will be sent to your friends and ${loveDetails.crushName}. 😂,  also no AI is involved in this....
         `;
